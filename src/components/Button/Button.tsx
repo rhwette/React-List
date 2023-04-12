@@ -3,8 +3,8 @@ import './Button.css';
 
 interface ButtonProps {
   children: string;
-  // color?: string;
-  color?: primary | secondary | danger;
+  color?: string;
+  // color?: primary | secondary | danger;
   onClick: () => void;
 }
 
